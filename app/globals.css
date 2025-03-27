@@ -13,6 +13,28 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {
+  /* Primary colors */
+  --color-primary-100: #ffe8f0;
+  --color-primary: #ee2b69;
+
+  /* Secondary color */
+  --color-secondary: #fbe843;
+
+  /* Black colors */
+  --color-black-100: #333333;
+  --color-black-200: #141413;
+  --color-black-300: #7d8087;
+  --color-black: #000000;
+
+  /* White colors */
+  --color-white-100: #f7f7f7;
+  --color-white: #ffffff;
+
+  /* Border radius */
+  --radius: 0.5rem;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
